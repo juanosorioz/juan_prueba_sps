@@ -1,0 +1,29 @@
+<div class="contenedor">
+  <div class="row row-cabecera">
+    <div class="card">
+      <div class="card-header">
+        <span class="titulou">Create a Notes</span>
+      </div>
+      <form class="row formu" [formGroup]="NoteForm" (ngSubmit)="addNote()">
+        <select class="form-select sele" aria-label="Default select example" formControlName="name" [(ngModel)]="seleccionado">
+          <option selected disabled>Users</option>
+          <option *ngFor="let user of listUser" [value]="user.name">{{user.name}}</option>
+        </select>
+        <div class="mb-3">
+          <input type="text" class="form-control" id="title" placeholder="Title" formControlName="title">
+        </div>
+        <div class="mb-3">
+          <textarea type="text" class="form-control" id="content" rows="3" placeholder="Content" formControlName="description"></textarea>
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control date" id="date" formControlName="date" readonly >
+        </div>
+        <div class="botones">
+          <button type="submit" class="btn btn-primary">Guardar</button>
+          <button type="button" class="btn btn-secondary" routerLink="/">Cancelar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+

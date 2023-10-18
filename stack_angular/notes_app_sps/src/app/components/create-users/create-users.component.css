@@ -1,0 +1,30 @@
+.contenedor1{
+  display: flex;
+  align-items: start;
+}
+.contenedor2{
+  width: 70%;
+  margin-left: 10px;
+}
+.botones{
+  display: flex;
+  margin-bottom: 10px;
+}
+.btn-secondary{margin: auto;}
+
+.card{
+  width: 100%;
+  margin: 3% 2%;
+}
+.card-header{
+  width: 100%;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+.formu{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 1px;
+ }
+

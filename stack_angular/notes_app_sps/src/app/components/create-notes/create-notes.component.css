@@ -1,0 +1,30 @@
+.botones{
+  display: flex;
+  margin-bottom: 10px;
+}
+.btn-secondary{margin: auto;}
+
+.card{
+  width: 50%;
+  margin: 10% 25%;
+}
+.card-header{
+  width: 100%;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+.formu{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 1px;
+ }
+ .sele{
+  width: 97%;
+  margin: 10px 0px 10px 10px;
+ }
+ .date{
+  width: 40%;
+  color: black;
+ }
+
